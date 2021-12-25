@@ -37,13 +37,13 @@ Also, please do not hesitate to contact me in case of any bugs or problems with 
 
 
 ##### Third-party content
-The following files have been written by other authors and are included here for convenience (in the directory `3rd party code`):
+The following files (in the directory `3rd party code`) have been written by other authors:
 - the `block-matrix-inverse-tools` have been written by **Richard Lange**, see https://github.com/wrongu/block-matrix-inverse-tools
 - `vline2.m` has been written by **K. Stahl**, see https://www.mathworks.com/matlabcentral/fileexchange/29578-improved-vline
 - `hermite_rule.m` has been written by **John Burkardt** and only marginally edited by me, see https://people.math.sc.edu/Burkardt/m_src/hermite_rule/hermite_rule.html
 - `RandOrthMat.m` has been written by **Ofek Shilon**, see https://www.mathworks.com/matlabcentral/fileexchange/11783-randorthmat
 
-All of these files are only included here for convenience only, and no claim concerning their respective licenses is made.
+All of these files are included here for convenience only, and no claim concerning their respective licenses is made.
 Copyright remains with the original authors, of course.
 Check the original sources (provided above) if in doubt about licensing.
 
