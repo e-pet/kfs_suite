@@ -30,8 +30,8 @@ Turning off iterations and choosing the unscented transform as a quadrature sche
 As an alternative quadrature scheme, the general (also multivariate) Gauss-Hermite quadrature rule is provided for use.
 Since the implementation is modular, alternative quadrature schemes could easily be integrated.
 
-Concerning the **iterative aspect** of the implementation, it has been shown in a number of studies that approximative nonlinear (e.g., extended, unscented, or Gauss-Hermite) filters and smoothers can greatly benefit from performing iterative filter/smoother runs.
-The included demo case demonstrates this effect very clearly.
+Concerning the **iterative aspect** of the implementation, it has been shown in a number of studies that approximative nonlinear (e.g., extended, unscented, or Gauss-Hermite) filters and smoothers can greatly benefit from performing iterative filter/smoother runs (see Herzog et al., Tronarp et al. below).
+The included demo case (`demo_nonlin.m`)  demonstrates this effect very clearly.
 By default, iterations are performed both within individual samples and across whole filter/smoother runs. 
 Dampening is implemented to speed up convergence across iterations.
 
@@ -40,6 +40,7 @@ My wish is for this toolbox to be useful to as many people as possible.
 (If there is sufficient demand, I might be willing to put together a dedicated PDF documentation in the future.)
 Also, please do not hesitate to contact me in case of any bugs or problems with the code.
 
+Much of the work leading to the development of this toolbox has been done while I was at the [University of Lübeck](https://www.uni-luebeck.de/en/university/university.html), with the [Institute for Electrical Engineering in Medicine](https://www.ime.uni-luebeck.de/institute.html).
 
 #### Third-party content
 The following files (in the directory `3rd party code`) have been written by other authors:
